@@ -18,5 +18,12 @@ public class App {
         saldo = in.nextInt();
         in.nextLine();
 
+        //Rahat on syötetty, peli näyttää saldon ja pyytää aloittamaan
+        System.out.println("Saldosi: " + saldo + " euroa");
+        System.out.println("Pelin hinta: 1 euro");
+        System.out.println("Paina ENTER aloittaaksesi");
+
+        in.nextLine();
+
     }
 }
